@@ -13,6 +13,7 @@ def main():
         print("1, Para decimal")
         print("2, para binario")
         print("3, para Hexadecimal")
+        print("4, para salir del programa")
         base = int(input())
     
         if base == 1:
@@ -82,6 +83,9 @@ def main():
                     print(bin,"\n")
                     print("==============================================")
                     break
+        elif base == 4:
+            return False
+
 
 
 
